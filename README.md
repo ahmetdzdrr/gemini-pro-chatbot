@@ -1,5 +1,7 @@
 # **Gemini Pro ChatBot**
 
+![chatbot-gif ‐ Clipchamp ile yapıldı](https://github.com/ahmetdzdrr/gemini-pro-chatbot/assets/117534684/41018d7b-5253-4273-bddd-83277afe95fe)
+
 ## **Table of Contents**
 
 - [Introduction](#introduction)
