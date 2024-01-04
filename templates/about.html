@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="{{ url_for('static', filename='images/chatbot.jpg') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/about.css') }}"
+    />
+    <title>About</title>
+  </head>
+  <header>
+    <span class="logo-div">
+      <img
+        class="logo"
+        src="{{ url_for('static', filename='images/chatbot.jpg') }}"
+        alt=""
+      />
+      <p class="logo-title">Gemini<span class="rainbow-text"> ChatBot</span></p>
+    </span>
+    <nav class="navigation">
+      <a href="/home">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <button class="started" id="started-button">Get Started</button>
+    </nav>
+  </header>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <input type="radio" name="slide" id="c1" checked />
+        <label for="c1" class="card">
+          <div class="row">
+            <div class="icon">1</div>
+            <div class="description">
+              <h4>Fast</h4>
+              <p>To surpass human experts in MMLU</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c2" />
+        <label for="c2" class="card">
+          <div class="row">
+            <div class="icon">2</div>
+            <div class="description">
+              <h4>Accurate</h4>
+              <p>Gets better every day - stay tuned</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c3" />
+        <label for="c3" class="card">
+          <div class="row">
+            <div class="icon">3</div>
+            <div class="description">
+              <h4>Future</h4>
+              <p>Helpful to all people in the world</p>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+  </body>
+</html>
